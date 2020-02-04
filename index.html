@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Autosearch</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
-    <script src="./main.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center auth-search pt-5">
+                <form autocomplete="off" action="/action_page.php">
+                    <div class="autocomplete form-group">
+
+                        <i class="fa fa-search pull-left"></i>
+                        <input type="text" name="myCountry" class="form-control as-input" id="myInput"
+                            placeholder="Search Google or Type a URL">
+
+                    </div>
+                    <!-- <input type="submit"> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
