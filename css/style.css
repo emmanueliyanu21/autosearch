@@ -16,7 +16,7 @@ body {
 .autocomplete {
   max-width: 50%!important;
   margin: auto!important;
-  padding-top: 24%;
+  
 }
 
 .autocomplete input {
@@ -97,14 +97,22 @@ input[type=submit] {
     margin: auto!important;
 }
 
-.auth-search form {
-    
-}
-
 .auth-search form:focus {
   border-radius: 100% 100% 0% 0%!important;
 }
 .auth-search {
   /* max-width: 100%!important; */
   margin: auto!important;
+  padding-top: 15%;
+}
+
+.auth-search img {
+  max-width: 23%; 
+  text-align: center!important;
+  margin: auto!important;
+}
+
+.google-img {
+  text-align: center!important;
+  
 }
